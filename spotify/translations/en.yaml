@@ -35,3 +35,8 @@ configuration:
     name: Enable volume normalisation
     description: >-
       Whether to enable volume normalisation.
+  librespot_options:
+    name: Librespot options
+    description: >-
+      Additional options for librespot. For available options see:
+      https://github.com/librespot-org/librespot/wiki/Options.
