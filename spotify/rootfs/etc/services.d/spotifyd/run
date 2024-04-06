@@ -63,4 +63,5 @@ if bashio::config.has_value 'librespot_options'; then
 fi
 
 # Run librespot
+bashio::log.debug Executing command: librespot "${options[@]}" $librespot_options
 exec librespot "${options[@]}" $librespot_options
