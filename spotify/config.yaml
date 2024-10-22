@@ -22,3 +22,4 @@ schema:
   username: str?
   password: password?
   enable_volume_normalisation: bool?
+  librespot_options: str?

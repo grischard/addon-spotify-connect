@@ -38,6 +38,7 @@ bitrate: 320
 username: frenck@example.com
 password: MySpotifyPassword
 enable_volume_normalisation: false
+librespot_options: --volume-ctrl fixed --normalisation-pregain -9
 ```
 
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
@@ -92,6 +93,9 @@ The password you use to login to your Spotify Premium account.
 ### Option: `enable_volume_normalisation`
 
 Whether to enable volume normalisation. For more info see the [librespot documentation][librespot-volume-normalisation].
+### Option: `librespot_options`
+
+Additional options for librespot. For more info see the [librespot documentation][librespot-options].
 
 ## Known issues and limitations
 
@@ -165,6 +169,7 @@ SOFTWARE.
 [frenck]: https://github.com/frenck
 [issue]: https://github.com/hassio-addons/addon-spotify-connect/issues
 [librespot-volume-normalisation]: https://github.com/librespot-org/librespot/wiki/Options#volume-normalisation
+[librespot-options]: https://github.com/librespot-org/librespot/wiki/Options
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-spotify-connect/releases
 [semver]: http://semver.org/spec/v2.0.0.htm
