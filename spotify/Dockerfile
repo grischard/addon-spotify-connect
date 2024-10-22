@@ -18,6 +18,7 @@ RUN \
     \
     && apk add --no-cache \
         pulseaudio=17.0-r0 \
+        cmake=3.29.3-r0 \
     \
     && cargo install \
         --locked \
