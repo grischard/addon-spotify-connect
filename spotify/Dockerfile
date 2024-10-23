@@ -20,6 +20,7 @@ RUN \
         pulseaudio=17.0-r0 \
         cmake=3.29.3-r0 \
     \
+    && cargo install --force --locked bindgen-cli \
     && cargo install \
         --locked \
         --no-default-features \
